@@ -166,7 +166,8 @@ class BestRQBrain(sb.core.Brain):
             with self.no_sync(not should_step):
                 (loss / self.grad_accumulation_factor).backward()
             if should_step:
-                if self.check_gradients(loss):
+                # if self.check_gradients(loss):
+                if self.check_gradients():
                     self.optimizer.step()
                 self.zero_grad()
                 self.optimizer_step += 1
