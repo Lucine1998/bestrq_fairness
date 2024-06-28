@@ -29,7 +29,7 @@ This project focuses on fine-tuning speech models and includes various parameter
 To get started with this project, clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/Lucine1998/your-repository-name.git
+git clone https://github.com/Lucine1998/bestrq_fairness.git
 cd your-repository-name
 pip install -r requirements.txt
 
